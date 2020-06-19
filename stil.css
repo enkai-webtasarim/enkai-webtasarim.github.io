@@ -1,0 +1,402 @@
+body{
+	margin:0px;
+	padding:0px;
+	margin-top: 100px;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	z-index: 9;
+}
+.header ul{
+	padding:0;
+	list-style: none;
+	float: right;
+	 margin-top: 0px;
+    margin-bottom: 0px;
+}
+.header ul li{
+	float: left;
+}
+.header ul li a
+{	display: block;
+	text-decoration: none;
+	width: 100px;
+	height: 60px;
+	text-align: center;
+	color: #001E60;
+	font: bold 12px tahoma;
+	padding: 40px 0 0 0;
+	transition: all .8s;
+	
+
+}
+.header ul li a:hover{
+	color: #fff;
+	background: #001E60;
+	transition: all .8s;
+}
+.clear{
+	clear: both;
+}
+.logo{
+	width: 250px;
+	height: 100px;
+	float: left;
+}
+.logo img{
+	padding-top:20px; 
+	padding-left:50px; 
+	width: 100%;
+}
+.footer{
+	padding-top: 15px;
+	width: 100%;
+	height: 65px;
+	background: #19242A;
+	text-align: center;
+	
+}
+.footer p{
+	text-align: center;
+	font-size: 11px;
+	color: #7ca1b3;
+	vertical-align: inherit;
+}
+.footer img{
+	width: 25px;
+	height:25px;
+}
+.right-btn{
+	position: absolute;
+    top: 50%;
+    right: 30px;
+}
+.left-btn{
+	position: absolute;
+    top: 50%;
+    left: 30px;
+}
+@media only screen and (max-width: 690px) {
+	.logo {
+		width: calc(100% - 20px) !important;
+		padding:10px 0px;
+		text-align:center;
+		float:none;
+		height:auto;
+	}
+	.logo img{
+		padding-left: 5px;
+	}
+	.header{
+		height:auto;	
+		position: fixed;
+		top: 0;
+	}
+	.header ul {
+		float:none;
+		width:100%;
+	}
+	.header ul li a
+
+{	display: inline-table;
+	text-decoration: none;
+	padding: 5px !important;
+	text-align: center;
+	color: #001E60;
+	font: bold 11px tahoma;
+	padding: 40px 0 0 0;
+	transition: all .8s;
+	height: 0px !important;
+	width: 0px !important;
+	
+
+}
+}
+
+.hakkimizda{
+	width: 100%;
+	padding-top: 10px;
+
+
+}
+.hakkimizda h1{
+	font:45px bold  tahoma;
+	font-style:italic; 
+	text-align: center;
+
+}
+.hakkimizda h3{
+	font:25px bold  tahoma;
+	font-style:italic;
+	padding-left: 20px;
+ 
+}
+.hakkimizda p{
+	font: 18px tahoma;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.hakkimizda_gorsel{
+	width: 100%;
+}
+.hakkimizda_gorsel img{
+	width: 1349px;
+}
+.faaliyet{
+	width: 100%;
+}
+.faaliyet h1{
+	font:45px bold  tahoma;
+	font-style:italic; 
+	text-align: center;
+
+}
+.faaliyet h3{
+	font:25px bold  tahoma;
+	font-style:italic;
+	padding-left: 20px;
+ 
+}
+.faaliyet p{
+	font: 18px tahoma;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.faaliyet_gorsel{
+	width: 100%;
+}
+.faaliyet_gorsel img{
+	width: 1349px;
+}
+.petrol{
+	width: 100%;
+}
+.petrol img{
+	width: 100%;
+}
+.petrol h1{
+	font:45px bold  tahoma;
+	font-style:italic; 
+	text-align: center;
+
+}
+.petrol h3{
+	font:30pxs bold  tahoma;
+	font-style:italic;
+	padding-left: 20px;
+ 
+}
+.petrol p{
+	font: 18px tahoma;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.santral{
+	width: 100%;
+}
+.santral img{
+	width: 100%;
+}
+.santral h1{
+	font:45px bold  tahoma;
+	font-style:italic; 
+	text-align: center;
+
+}
+.santral h3{
+	font:30px bold  tahoma;
+	font-style:italic;
+	padding-left: 20px;
+ 
+}
+.santral p{
+	font: 18px tahoma;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.altyapi{
+	width: 100%;
+}
+.altyapi img{
+	width: 100%;
+}
+.altyapi h1{
+	font:45px bold  tahoma;
+	font-style:italic; 
+	text-align: center;
+
+}
+.altyapi h3{
+	font:30px bold  tahoma;
+	font-style:italic;
+	padding-left: 20px;
+ 
+}
+.altyapi p{
+	font: 18px tahoma;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.insaat{
+	width: 100%;
+}
+.insaat img{
+	width: 100%;
+}
+.insaat h1{
+	font:45px bold  tahoma;
+	font-style:italic; 
+	text-align: center;
+
+}
+.insaat h3{
+	font:30px bold  tahoma;
+	font-style:italic;
+	padding-left: 20px;
+ 
+}
+.insaat p{
+	font: 18px tahoma;
+	padding-left: 20px;
+	padding-right:20px;
+}
+.proje_gorsel{
+	width: 100%;
+}
+.proje_gorsel img{
+	width: 1349px;
+}
+.proje{
+	width: 100%;
+}
+.proje img{
+	width: 1345px;
+}
+.proje h1{
+	font:45px bold  tahoma;
+	font-style:italic; 
+	text-align: center;
+
+}
+.proje h3{
+	font:30px bold  tahoma;
+	font-style:italic;
+	padding-left: 20px;
+ 
+}
+.proje p{
+	font: 18px tahoma;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.proje1{
+	width: 100%;
+}
+.proje1 img{
+	width: 100%;
+}
+.proje1 h1{
+	font:45px bold  tahoma;
+	font-style:italic; 
+	text-align: center;
+
+}
+.proje1 h3{
+	font:30px bold  tahoma;
+	font-style:italic;
+	padding-left: 20px;
+ 
+}
+.proje1 p{
+	font: 18px tahoma;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.basin{
+	width: 100%;
+}
+.basin img{
+	width: 1345px;
+}
+.basin h1{
+	font:45px bold  tahoma;
+	font-style:italic; 
+	text-align: center;
+
+}
+.basin h3{
+	font:30px bold  tahoma;
+	font-style:italic;
+	padding-left: 20px;
+ 
+}
+.basin p{
+	font: 18px tahoma;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.adres{
+	width: 400px;
+	height: 450px;
+	margin-top: -480px;
+	margin-right: 150px;
+	float: right;
+	
+}
+.adres p{
+	font: 19px tahoma;
+}
+.adres h1
+{
+	font:45px bold  tahoma;
+	font-style:italic; 
+	text-align: center;
+
+}
+.adres img{
+	width: 25px;
+	height: 25px;
+}
+.form{
+	width: 400px;
+	height: 500px;
+	text-align: center;
+}
+.form h1{
+	font:45px bold  tahoma;
+	font-style:italic; 
+}
+.helpme{
+	width: 250px;
+height: 30px;
+background-color: #66ff00;
+position: fixed;
+bottom: 0px;
+right: 0px;
+z-index: 99;
+}
+.yardim{
+
+	width: 250px;
+	height: 250px;
+	position: fixed;
+	bottom: -250px;
+	right: 0;
+	transition: all .3s;
+	background-color: #fff;
+	z-index: 98;
+	text-align: center;
+	border: 1px solid #000;
+
+
+}
+.close{
+	transition: all .3s;
+	bottom: 0px !important;
+
+
+}
